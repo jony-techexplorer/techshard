@@ -65,10 +65,29 @@ header {
 .brand {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 8px;
   font-weight: 800;
+  font-size: 18px;
   color: var(--purple-dark);
   letter-spacing: -0.02em;
+}
+
+.brand-logo {
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  overflow: hidden;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+}
+
+.brand-logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
 }
 
 .brand-badge {
@@ -617,4 +636,5 @@ section {
   .card, .metric-card { padding: 18px; }
   h1 { font-size: 38px; }
 }
+
 
